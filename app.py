@@ -16,7 +16,7 @@ def delete_non_matching_csv_files(directory_path, video_id):
 
 st.set_page_config(page_title='Youtube-Sentiment', page_icon = 'LOGO.png', initial_sidebar_state = 'expanded')
 #st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.sidebar.title("Sentimental Analsis")
+st.sidebar.title("Sentimental Analsis Of Youtube Comments")
 st.sidebar.header("Enter YouTube Link")
 youtube_link = st.sidebar.text_input("Link")
 directory_path = os.getcwd()
